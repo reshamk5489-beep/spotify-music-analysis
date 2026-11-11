@@ -33,7 +33,18 @@ data/dataset.csv
 
 The CSV used in the analysis has 114,000 rows and 21 columns, including track identifiers, artist and track names, popularity, genre labels, and audio features.
 
-**Dataset source:** Add the original dataset page or download URL here before publishing. Keep the dataset's original attribution and license information. Do not upload the CSV to GitHub unless its license and the dataset provider's terms allow redistribution.
+
+## Dataset Source and Acknowledgment
+
+This project uses the [Spotify Tracks Dataset](https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset) published on Hugging Face by **maharshipandya**.
+
+The dataset contains approximately 114,000 Spotify tracks across 125 genres, along with audio features such as danceability, energy, acousticness, instrumentalness, and popularity.
+
+The dataset was collected and cleaned using Spotify's Web API and Python, according to its dataset documentation.
+
+**Dataset source:** https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset
+
+**License:** The Hugging Face page declares a BSD license. Please consult the dataset provider's licensing terms before redistribution.
 
 ## Methods
 
